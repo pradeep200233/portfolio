@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .container1 {
+        width: 100vw;
+        padding: 10px 60px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(242, 245, 242);
+        
+      }
+      .container2 {
+        width: 100vw;
+        background-image: url(./cam3.avif);
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        padding: 100px 0px;
+        color: white;
+      }
+      .photo {
+        width: 280px;
+      }
+
+      .img1 {
+        width: 80%;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px rgb(12, 205, 219);
+      }
+      .img1:hover{
+        transform: scalex(1.1);
+        transform: scaleX(20deg);
+        transition-duration: 0.5s;
+      }
+      .h2 {
+        margin-left: 20px;
+      }
+      .h3 {
+        border-radius: 50px;
+        width: 100px;
+        height: 40px;
+        background-color: rgb(9, 57, 213);
+      }
+      .h3:hover {
+        transform: scalex(1.1);
+        transform: scaleX(20deg);
+        box-shadow: 5px 5px 5px white;
+        transition-duration: 0.5s;
+      }
+      
+      .container3{
+       width: 100vw;
+        background-color: #d6d1d0;
+        text-align: center;
+        color: rgb(22, 27, 27);
+      }
+      .container4{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(10, 39, 54);
+        color: white;
+        
+      }
+      .line{
+        height: 10px;
+        width: 60vw;
+        text-align: center;
+        background: linear-gradient(to left,#833ab4,#fd1d1f 50%,#fcb045 100%);
+        border-radius: 10px;
+        animation: processbar-fill 3s linear;
+      }
+      .p-2{
+       border: 2px solid;
+       
+       width: 320px;
+       border-radius: 30px;
+      }
+      .d-flex{
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        background-color: rgb(240, 122, 38);
+        color: rgb(238, 231, 231);
+        padding: 10px 10px;
+        width: 100vw;
+        
+      }
+      .c1{
+        margin-top: -16px;
+      }
+      .carousel slide{
+        border: 2px solid black;
+        width: 100vw;
+      
+       
+      }
+      .carousel-inner{
+       
+        width: 100vw;
+        box-shadow: 0px 0px 15px  rgb(205, 50, 166);
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(27, 77, 77);
+        color: white;
+        
+      }
+      .p-2:hover{
+        box-shadow: 0px 0px 10px rgb(230, 221, 221);
+        transform: scaleX(1.1);
+        color:white;
+      }
+     .h31{
+       
+        border-radius: 50px;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(55, 11, 121);
+        color: white;
+      }
+      .h31:hover {
+        transform: scalex(1.1);
+        transform: scaleX(20deg);
+        box-shadow: 0px 0px 15px white;
+        transition-duration: 0.5s;
+      }
+      .h2:hover{
+        transform: scalex(1.1);
+        transform: scaleX(20deg);
+        box-shadow: 0px 0px 15px white;
+        transition-duration: 0.5s;
+      }
+      .container5{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:  rgb(10, 39, 54);
+        color: white;
+      }
+      .kingu{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 150px;
+      }
+      .king1:hover{
+        transform: scalex(1.1);
+        
+      }
+      .kill{
+        background-color: black;
+        color: black;
+      }
+      @media screen and (max-width:425px) {
+        .k1{
+          width: 70px;
+
+        }
+        body{
+          position: absolute;
+          width: 100vw;
+          margin-left: 70px;
+          
+          
+
+        }
+        
+      }
+
+      
+     
+
+      
+      
+
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <nav class="navbar navbar-expand-lg">
+        <div class="navbar-fluid">
+          <a href="" class="navbar-brand h1">D.PRADEEP</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#pradeep"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="pradeep">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#boss" class="navbar-brand">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#para" class="navbar-brand">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ram" class="navbar-brand">Projects</a>
+            </li>
+            <li class="nav-item"><a href="#Hema" class="navbar-brand">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container2">
+      <div class="photo">
+        <img
+          class="img1"
+          width="30%"
+          src="./pawan.jpg"
+        />
+      </div>
+      <div class="p1">
+        <p class="h2">Hello........!</p>
+        <p class="h2">I am pradeep Frontend Developer</p>
+        <p class="h2">My passion is a Create web applications.</p>
+        <a
+          href="https://docs.google.com/document/d/1c776tIl2YzeDJpzf9tQXZ7Kf0rNf0yVR/edit?usp=sharing&ouid=107035912616372715085&rtpof=true&sd=true"
+          target="_blank"
+          class="navbar-brand"
+          ><button class="h3"><h4>Resume</h4></button></a
+        >
+
+        <a href="#boss" class="navbar-brand"><button class="h3"><h4>Contact</h4></button></a>
+      </div>
+    </div>
+    <div class="container3">
+      <div class="table1">
+        <p class="h2" id="para"><u>About Me</u></p>
+        <p>I am pradeep i am from srikakulam in Andhrapradesh.I done my graduation in sri sivani college of Engineering <br> In the stream of <br>Electronic and communication Engineering
+          i have done security lock for bike ignition project during B.tech 4th year.<br>
+          Coming to my hobbies playing cricket and dancing.<br>My strength is can motivate my self at any situation 
+          and <br>my weakness is a iam to critical my self and often feel like iam not giving my best or like i disapointed the people i work with.
+        </p>
+        <svg width="20%" fill="#000000" viewBox="0 0 14 14" role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="m 12.499079,12.25525 c 0.0968,0 0.188377,-0.0436 0.249339,-0.11884 0.06096,-0.0752 0.08473,-0.17385 0.06473,-0.26853 l -0.202146,-0.95662 c 0.115125,-0.11137 0.187491,-0.26686 0.187491,-0.43975 0,-0.182 -0.08106,-0.34343 -0.206876,-0.45558 l 0,-3.32202 -0.810333,0.50146 0,2.82056 c -0.125815,0.11215 -0.2069,0.27358 -0.2069,0.45558 0,0.17291 0.07239,0.32841 0.187515,0.43975 l -0.20217,0.95662 c -0.02,0.0947 0.0038,0.19335 0.06473,0.26853 0.06096,0.0752 0.152539,0.11884 0.249339,0.11884 l 0.625281,0 z M 12.773741,4.75539 7.5021019,1.49209 C 7.3477151,1.39699 7.1736728,1.34925 6.9996305,1.34925 c -0.1740423,0 -0.3482077,0.0477 -0.5016586,0.14284 l -5.271713,3.2633 C 1.0854931,4.84249 0.99999905,4.99633 0.99999905,5.1619 c 0,0.1656 0.085494,0.31949 0.22625985,0.40673 l 5.2716883,3.26333 c 0.153451,0.0952 0.3276163,0.14284 0.5016586,0.14284 0.1740423,0 0.3481092,-0.0477 0.5024714,-0.14284 L 12.773741,5.56863 c 0.140766,-0.0872 0.22626,-0.24113 0.22626,-0.40673 0,-0.16557 -0.08549,-0.31946 -0.22626,-0.40651 z M 6.9996059,9.78508 c -0.3283798,0 -0.6488777,-0.0912 -0.928242,-0.26411 l -3.0750017,-1.90368 0,3.27796 c 0,0.97016 1.7931578,1.7555 4.0032436,1.7555 2.2108742,0 4.0038842,-0.78536 4.0038842,-1.7555 l 0,-3.27796 -3.0748786,1.90368 C 7.6492472,9.69388 7.3279857,9.78508 6.9996059,9.78508 Z"></path></g></svg>
+        
+      
+      </div>
+    </div>
+    <div class="container4">
+     <h1  class="Nag" id="Hema"><u>SKILLS</u></h1>
+     <ul>
+      <li>HTML</li>
+      <P class="line"></P>
+      <li>CSS</li>
+      <p class="line"></p>
+      <li>BOOSTRAP</li>
+      <p class="line"></p>
+      <li>AWS</li>
+      <p class="line"></p>
+      <li>JAVASCRPIPT</li>
+      <P class="line"></P>
+      <li>REACT JS</li>
+      <p class="line"></p>
+     </ul>
+     </div>
+     <div class="d-flex flex-row  mb-3">
+      <div class="p-2 "><svg width="25%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"></path> <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"></path> </g></svg>
+      <p>HTML stands for Hyper Text Markup Language
+        HTML is the standard markup language for creating Web pages
+        HTML describes the structure of a Web page
+        HTML consists of a series of elements
+        HTML elements tell the browser how to display the content
+        HTML elements label pieces of content such as "this is a heading",</p></div>
+      <div class="p-2">
+        <svg width="25%" fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="c133de6af664cd4f011a55de6b001a2b"> <path display="inline" d="M204.064,46.682v22.018h-56.302V0.501h56.302v24.13h-32.172v22.051H204.064z M261.941,24.631h22.492 V0.501h-56.308c0,0,0,12.112,0,24.13c7.533,7.533,11.461,11.139,22.356,22.034c-6.369,0-22.356,0.022-22.356,0.021v22.014h56.308 V46.682L261.941,24.631z M341.746,24.631h22.49V0.501H307.93c0,0,0,12.112,0,24.13c7.531,7.533,11.461,11.139,22.355,22.034 c-6.365,0-22.355,0.022-22.355,0.021v22.014h56.307V46.682L341.746,24.631z M438.395,101.112l-34.203,370.486l-148.193,39.9 l-148.196-39.9L73.605,101.112H438.395z M369.477,176.444H255.865h-115.62l5.529,44.739h110.091h6.184l-6.184,2.574 l-106.067,44.177l3.518,43.73l102.549,0.333l54.963,0.175l-3.521,58.311l-51.442,14.484v-0.046l-0.422,0.116l-49.684-12.542 l-3.015-36.195h-0.164h-46.085h-0.162l6.032,69.876l93.5,27.649v-0.05l0.168,0.05l93-27.146L361.1,267.935H255.865h-0.26 l0.26-0.112l109.086-46.639L369.477,176.444z"> </path> </g> </g></svg>
+       <p>CSS stands for Cascading Style Sheets
+        CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+        CSS saves a lot of work. It can control the layout of multiple web pages all at once
+        External stylesheets are stored in CSS files</p> 
+      </div>
+      <div class="p-2">
+        <img width="25%" src="https://ehaboo.github.io/my-resume/assets/images/Bootstrap-img.png">
+        <p>Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Learn how to use Bootstrap 5 with examples of containers, colors, columns, tables, alerts, buttons,</p>
+      </div>
+    </div>
+    <div class="d-flex flex-row c1 mb-3">
+      <div class="p-2 "><svg width="25%" viewBox="0 -30 150 150" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M122.714 62.703c5.28-.643 16.924-2.027 18.997.643 2.072 2.621-2.319 13.649-4.293 18.544-.592 1.484.691 2.077 2.023.94 8.684-7.319 10.954-22.6 9.178-24.825-1.777-2.175-17.023-4.055-26.3 2.473-1.431 1.038-1.184 2.423.395 2.225z" fill="#F90"></path> <path d="M74.852 89.456c20.28 0 43.865-6.38 60.099-18.396 2.664-1.978.345-4.994-2.369-3.758-18.207 7.714-37.993 11.473-56.003 11.473-26.694 0-52.5-7.368-73.42-19.533-1.827-1.088-3.208.791-1.679 2.176 19.343 17.505 44.951 28.038 73.372 28.038z" fill="#F90"></path> <path d="M42.632 32.835c0 1.83.197 3.313.542 4.401a26.505 26.505 0 001.58 3.56c.246.396.345.792.345 1.138 0 .495-.296.99-.938 1.484l-3.108 2.077c-.444.296-.889.445-1.283.445-.494 0-.987-.248-1.48-.693a15.29 15.29 0 01-1.777-2.324 38.28 38.28 0 01-1.53-2.918c-3.848 4.55-8.684 6.825-14.506 6.825-4.145 0-7.45-1.187-9.868-3.56-2.418-2.374-3.652-5.54-3.652-9.495 0-4.204 1.48-7.616 4.49-10.187 3.01-2.572 7.007-3.857 12.09-3.857 1.677 0 3.404.148 5.23.395 1.825.248 3.7.643 5.674 1.088v-3.61c0-3.758-.79-6.379-2.32-7.912-1.578-1.533-4.243-2.274-8.042-2.274-1.727 0-3.503.197-5.329.642a39.247 39.247 0 00-5.329 1.682 14.14 14.14 0 01-1.727.643c-.345.098-.592.148-.79.148-.69 0-1.036-.494-1.036-1.533V6.577c0-.791.1-1.385.346-1.73.246-.347.69-.693 1.381-1.04 1.727-.89 3.8-1.631 6.217-2.225C20.23.94 22.797.642 25.51.642c5.872 0 10.164 1.336 12.927 4.006 2.714 2.67 4.096 6.726 4.096 12.165v16.022h.099zm-20.033 7.517c1.628 0 3.306-.297 5.082-.89 1.776-.594 3.355-1.682 4.687-3.165.79-.94 1.382-1.978 1.678-3.165.296-1.187.493-2.621.493-4.302v-2.077a41.135 41.135 0 00-4.539-.84 37.099 37.099 0 00-4.638-.298c-3.306 0-5.724.643-7.352 1.978-1.628 1.336-2.418 3.215-2.418 5.687 0 2.324.592 4.055 1.826 5.242 1.184 1.236 2.911 1.83 5.18 1.83zm39.621 5.34c-.888 0-1.48-.148-1.875-.494-.394-.297-.74-.99-1.036-1.929L47.714 5.044c-.296-.99-.444-1.632-.444-1.978 0-.791.394-1.236 1.184-1.236h4.835c.938 0 1.58.148 1.925.494.395.297.69.99.987 1.929l8.29 32.736 7.697-32.736c.246-.99.542-1.632.937-1.929.395-.297 1.085-.494 1.974-.494h3.947c.938 0 1.579.148 1.974.494.395.297.74.99.937 1.929l7.796 33.132L98.29 4.253c.295-.99.64-1.632.986-1.929.395-.297 1.036-.494 1.925-.494h4.588c.79 0 1.234.395 1.234 1.236 0 .247-.049.494-.099.791a7.041 7.041 0 01-.345 1.236L94.688 43.32c-.297.989-.642 1.631-1.037 1.928-.394.297-1.036.495-1.875.495h-4.243c-.938 0-1.58-.149-1.974-.495-.394-.346-.74-.989-.937-1.978l-7.648-31.895-7.599 31.846c-.247.989-.543 1.632-.938 1.978-.394.346-1.085.494-1.973.494H62.22zm63.405 1.336c-2.566 0-5.132-.297-7.599-.89-2.467-.594-4.391-1.237-5.674-1.979-.79-.445-1.332-.94-1.53-1.384a3.503 3.503 0 01-.296-1.385v-2.522c0-1.038.395-1.533 1.135-1.533.296 0 .592.05.888.148.296.1.74.297 1.234.495a26.791 26.791 0 005.428 1.73c1.973.396 3.898.594 5.871.594 3.109 0 5.527-.544 7.204-1.632 1.678-1.088 2.566-2.67 2.566-4.698 0-1.384-.444-2.521-1.332-3.461-.888-.94-2.566-1.78-4.984-2.571l-7.154-2.226c-3.602-1.137-6.267-2.818-7.895-5.044-1.628-2.176-2.467-4.599-2.467-7.17 0-2.077.444-3.907 1.332-5.489.888-1.582 2.072-2.967 3.553-4.055 1.48-1.137 3.157-1.978 5.131-2.571 1.974-.594 4.046-.841 6.217-.841 1.086 0 2.221.05 3.306.198 1.135.148 2.171.346 3.207.544.987.247 1.925.494 2.813.79.888.298 1.579.594 2.072.891.691.396 1.185.791 1.481 1.236.296.396.444.94.444 1.632V8.16c0 1.039-.395 1.583-1.135 1.583-.395 0-1.036-.198-1.875-.594-2.813-1.285-5.971-1.928-9.474-1.928-2.812 0-5.033.445-6.562 1.384-1.53.94-2.319 2.374-2.319 4.402 0 1.384.493 2.57 1.48 3.51s2.812 1.88 5.427 2.72l7.007 2.226c3.553 1.137 6.118 2.72 7.648 4.747 1.53 2.027 2.27 4.351 2.27 6.923 0 2.126-.444 4.055-1.283 5.736-.888 1.681-2.072 3.165-3.602 4.352-1.53 1.236-3.355 2.126-5.477 2.769-2.22.692-4.54 1.039-7.056 1.039z" fill="#252F3E"></path> </g></svg>
+      <p>Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+      </p></div>
+      <div class="p-2">
+        <svg width="25%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>nodejs</title> <rect width="24" height="24" fill="none"></rect> <path d="M12,1.85a1.62,1.62,0,0,0-.78.2L3.78,6.35A1.58,1.58,0,0,0,3,7.71v8.58a1.58,1.58,0,0,0,.78,1.36l2,1.12a3.24,3.24,0,0,0,1.71.47,2.07,2.07,0,0,0,2.21-2.33V8.44a.22.22,0,0,0-.22-.22H8.5a.22.22,0,0,0-.23.22v8.47c0,.66-.68,1.31-1.77.76l-2-1.17a.26.26,0,0,1-.11-.21V7.71a.24.24,0,0,1,.11-.21l7.44-4.29a.22.22,0,0,1,.22,0L19.55,7.5a.24.24,0,0,1,.11.21v8.58a.26.26,0,0,1-.11.21l-7.44,4.29a.24.24,0,0,1-.23,0L10,19.65a.26.26,0,0,0-.21,0,4.22,4.22,0,0,1-1.12.51c-.12,0-.31.11.07.32l2.48,1.47a1.55,1.55,0,0,0,1.56,0l7.44-4.29A1.58,1.58,0,0,0,21,16.29V7.71a1.58,1.58,0,0,0-.78-1.36l-7.44-4.3a1.59,1.59,0,0,0-.78-.2M14,8c-2.12,0-3.39.89-3.39,2.39s1.26,2.08,3.3,2.28c2.43.24,2.62.6,2.62,1.08,0,.83-.67,1.18-2.23,1.18-2,0-2.4-.49-2.55-1.47a.23.23,0,0,0-.22-.18h-1a.21.21,0,0,0-.21.22c0,1.24.68,2.74,3.94,2.74,2.35,0,3.7-.93,3.7-2.55s-1.08-2-3.37-2.34-2.54-.46-2.54-1,.2-1,1.91-1c1.5,0,2.09.33,2.32,1.36a.21.21,0,0,0,.21.17h1a.19.19,0,0,0,.15-.07.16.16,0,0,0,.05-.16C17.56,8.82,16.38,8,14,8Z"></path> </g></svg>
+       <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p> 
+      </div>
+      <div class="p-2">
+        <svg width="25%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect id="Icons" x="-1088" y="-64" width="1280" height="800" style="fill:none;"></rect> <g id="Icons1" serif:id="Icons"> <g id="Strike"> </g> <g id="H1"> </g> <g id="H2"> </g> <g id="H3"> </g> <g id="list-ul"> </g> <g id="hamburger-1"> </g> <g id="hamburger-2"> </g> <g id="list-ol"> </g> <g id="list-task"> </g> <g id="trash"> </g> <g id="vertical-menu"> </g> <g id="horizontal-menu"> </g> <g id="sidebar-2"> </g> <g id="Pen"> </g> <g id="Pen1" serif:id="Pen"> </g> <g id="clock"> </g> <g id="external-link"> </g> <g id="hr"> </g> <g id="info"> </g> <g id="warning"> </g> <g id="plus-circle"> </g> <g id="minus-circle"> </g> <g id="vue"> </g> <g id="cog"> </g> <g id="logo"> </g> <g id="radio-check"> </g> <g id="eye-slash"> </g> <g id="eye"> </g> <g id="toggle-off"> </g> <g id="shredder"> </g> <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"> </g> <g id="react"> <circle cx="32.001" cy="31.955" r="4.478" style="fill:#00d8ff;"></circle> <path d="M32.33,22.516c7.635,0.052 15.965,0.609 21.683,5.708c0.168,0.15 0.33,0.306 0.488,0.467c1.349,1.375 2.054,3.595 0.965,5.422c-2.234,3.751 -7.23,5.387 -12.067,6.394c-7.234,1.506 -14.798,1.518 -22.029,0.192c-4.161,-0.764 -8.416,-2.103 -11.373,-4.904c-1.151,-1.09 -2.135,-2.524 -1.981,-4.12c0.25,-2.582 2.727,-4.239 4.812,-5.361c5.791,-3.116 12.847,-3.813 19.502,-3.798Zm-0.554,1.173c-7.224,0.049 -15.043,0.51 -20.621,5.129c-0.195,0.161 -0.383,0.33 -0.564,0.507c-0.117,0.114 -0.23,0.233 -0.339,0.355c-0.979,1.1 -1.316,2.867 -0.392,4.188c0.93,1.329 2.342,2.288 3.796,3.07c5.438,2.924 11.864,3.443 18.129,3.465c6.343,0.023 12.884,-0.555 18.487,-3.452c2.232,-1.155 4.744,-2.851 4.655,-5.035c-0.082,-2.004 -2.036,-3.242 -3.499,-4.126c-0.396,-0.239 -0.803,-0.46 -1.216,-0.668c-5.562,-2.787 -12.08,-3.447 -18.436,-3.433Z" style="fill:#00d8ff;"></path> <path d="M42.115,10.703c2.793,0.071 4.24,3.429 4.431,5.909c0.038,0.493 0.052,0.988 0.046,1.483c-0.006,0.536 -0.035,1.072 -0.082,1.606c-0.589,6.612 -3.608,12.909 -7.163,18.724c-3.477,5.688 -7.717,11.36 -13.485,13.996c-1.907,0.872 -4.175,1.41 -5.863,0.437c-2.314,-1.333 -2.567,-4.451 -2.524,-6.816c0.011,-0.581 0.049,-1.162 0.109,-1.741c0.889,-8.56 5.228,-16.669 10.658,-23.655c3.168,-4.076 6.937,-8.119 11.632,-9.583c0.739,-0.231 1.326,-0.371 2.241,-0.36Zm-0.134,1.172c-3.279,0.052 -6.223,2.482 -8.83,5.007c-6.854,6.637 -11.905,15.464 -13.937,24.721c-0.157,0.717 -0.289,1.439 -0.386,2.166c-0.075,0.563 -0.13,1.129 -0.159,1.697c-0.023,0.452 -0.031,0.905 -0.017,1.358c0.01,0.354 0.033,0.708 0.072,1.06c0.029,0.269 0.068,0.537 0.117,0.803c0.037,0.197 0.08,0.393 0.13,0.588c0.041,0.158 0.087,0.315 0.139,0.471c0.409,1.233 1.463,2.411 2.878,2.45c3.301,0.09 6.409,-2.317 9.096,-4.933c4.717,-4.591 8.232,-10.36 10.978,-16.424c2.216,-4.896 4.243,-10.218 3.111,-15.607c-0.043,-0.204 -0.093,-0.406 -0.15,-0.606c-0.047,-0.163 -0.1,-0.324 -0.158,-0.483c-0.44,-1.199 -1.475,-2.271 -2.884,-2.268Z" style="fill:#00d8ff;"></path> <path d="M22.109,10.747c3.564,0.069 6.765,2.488 9.607,5.197c5.186,4.943 9.011,11.231 11.913,17.849c2.248,5.127 4.316,10.882 2.478,16.292c-0.579,1.705 -2.044,3.265 -3.997,3.305c-3.581,0.072 -6.9,-2.532 -9.78,-5.335c-7.225,-7.034 -12.589,-16.32 -14.427,-26.168c-0.132,-0.704 -0.237,-1.414 -0.309,-2.127c-0.059,-0.582 -0.096,-1.167 -0.106,-1.752c-0.008,-0.472 0.002,-0.944 0.035,-1.414c0.022,-0.314 0.054,-0.626 0.097,-0.937c0.041,-0.292 0.093,-0.583 0.158,-0.871c0.043,-0.191 0.091,-0.38 0.146,-0.568c0.539,-1.843 1.941,-3.485 4.185,-3.471Zm-0.135,1.173c-2.087,0.046 -3.042,2.507 -3.234,4.234c-0.039,0.354 -0.063,0.711 -0.074,1.068c-0.014,0.456 -0.008,0.913 0.015,1.369c0.328,6.599 3.278,12.979 6.838,18.821c3.352,5.5 7.4,10.978 12.968,13.794c1.608,0.813 3.562,1.452 4.951,0.684c1.742,-0.964 1.956,-3.261 2.049,-4.973c0.025,-0.466 0.028,-0.934 0.013,-1.401c-0.018,-0.586 -0.064,-1.171 -0.133,-1.753c-0.642,-5.437 -3.05,-10.582 -5.816,-15.444c-3.442,-6.048 -7.659,-12.076 -13.627,-15.225c-1.236,-0.652 -2.574,-1.185 -3.95,-1.174Z" style="fill:#00d8ff;"></path> </g> <g id="check-selected"> </g> <g id="turn-off"> </g> <g id="code-block"> </g> <g id="user"> </g> <g id="coffee-bean"> </g> <g id="coffee-beans"> <g id="coffee-bean1" serif:id="coffee-bean"> </g> </g> <g id="coffee-bean-filled"> </g> <g id="coffee-beans-filled"> <g id="coffee-bean2" serif:id="coffee-bean"> </g> </g> <g id="clipboard"> </g> <g id="clipboard-paste"> </g> <g id="clipboard-copy"> </g> <g id="Layer1"> </g> </g> </g></svg>
+        <p>React.js, commonly referred to as React, is an open-source JavaScript library developed by Facebook for building user interfaces, particularly for single-page applications (SPAs). React enables developers to create reusable UI components that manage their own state, making it easier to build dynamic and interactive web applications</p>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+     
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+  </div>
+  <div class="carousel-inner">
+    <h1 class="info" id="ram">MY projects</h1>
+    <div class="carousel-item active">
+      <img src="./simple house screen shot.png" width="59%" height="20%">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+        <a href="https://pradeep200233.github.io/projectcss/"><button class="h31">Live preview</button></a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./flex box screenshot.png" width="59%">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+        <a href="https://pradeep200233.github.io/flex-box/"><button class="h31">Live preview</button></a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./products screenshot.png" width="59%">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+        <a href="https://pradeep200233.github.io/adding-card/"><button class="h31">Live preview</button></a>
+      </div>
+    </div>
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+  
+
+<div class="container5" style="margin-top: 10px;">
+<h1 align="center" id="boss">Contact</h1>
+<p>Email:pradeepdunna6@gmail.com</p>
+<p>contact number:7337251714</p>
+
+<br><br><div class="kingu">
+  <div class="king1">
+  <a href="https://www.instagram.com/?hl=enndiabix"><svg class="k1" width="20%" viewBox="0 0 3364.7 3364.7" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><radialGradient id="0" cx="217.76" cy="3290.99" r="4271.92" gradientUnits="userSpaceOnUse"><stop offset=".09" stop-color="#fa8f21"></stop><stop offset=".78" stop-color="#d82d7e"></stop></radialGradient><radialGradient id="1" cx="2330.61" cy="3182.95" r="3759.33" gradientUnits="userSpaceOnUse"><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"></stop><stop offset="1" stop-color="#8c3aaa"></stop></radialGradient></defs><path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#0)"></path><path d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9" fill="url(#1)"></path><path d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57" fill="#ffffff"></path></g></svg></a>
+</div>
+<div class="king1">
+  <a href="https://www.linkedin.com/feed/"><svg class="k1" width="20%" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="24" cy="24" r="20" fill="#0077B5"></circle> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.7747 14.2839C18.7747 15.529 17.8267 16.5366 16.3442 16.5366C14.9194 16.5366 13.9713 15.529 14.0007 14.2839C13.9713 12.9783 14.9193 12 16.3726 12C17.8267 12 18.7463 12.9783 18.7747 14.2839ZM14.1199 32.8191V18.3162H18.6271V32.8181H14.1199V32.8191Z" fill="white"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M22.2393 22.9446C22.2393 21.1357 22.1797 19.5935 22.1201 18.3182H26.0351L26.2432 20.305H26.3322C26.9254 19.3854 28.4079 17.9927 30.8101 17.9927C33.7752 17.9927 35.9995 19.9502 35.9995 24.219V32.821H31.4922V24.7838C31.4922 22.9144 30.8404 21.6399 29.2093 21.6399C27.9633 21.6399 27.2224 22.4999 26.9263 23.3297C26.8071 23.6268 26.7484 24.0412 26.7484 24.4574V32.821H22.2411V22.9446H22.2393Z" fill="white"></path> </g></svg></a>
+</div>
+<div class="king1">
+  <a href="https://mail.google.com/mail/u/0/#inbox"><svg class="k1" width="20%" viewBox="0 0 100 100" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#FFFFFF;} .st1{fill:#F5BB41;} .st2{fill:#2167D1;} .st3{fill:#3D84F3;} .st4{fill:#4CA853;} .st5{fill:#398039;} .st6{fill:#D74F3F;} .st7{fill:#D43C89;} .st8{fill:#B2005F;} .st9{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st10{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st11{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#040404;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st12{fill-rule:evenodd;clip-rule:evenodd;} .st13{fill-rule:evenodd;clip-rule:evenodd;fill:#040404;} .st14{fill:url(#SVGID_1_);} .st15{fill:url(#SVGID_2_);} .st16{fill:url(#SVGID_3_);} .st17{fill:url(#SVGID_4_);} .st18{fill:url(#SVGID_5_);} .st19{fill:url(#SVGID_6_);} .st20{fill:url(#SVGID_7_);} .st21{fill:url(#SVGID_8_);} .st22{fill:url(#SVGID_9_);} .st23{fill:url(#SVGID_10_);} .st24{fill:url(#SVGID_11_);} .st25{fill:url(#SVGID_12_);} .st26{fill:url(#SVGID_13_);} .st27{fill:url(#SVGID_14_);} .st28{fill:url(#SVGID_15_);} .st29{fill:url(#SVGID_16_);} .st30{fill:url(#SVGID_17_);} .st31{fill:url(#SVGID_18_);} .st32{fill:url(#SVGID_19_);} .st33{fill:url(#SVGID_20_);} .st34{fill:url(#SVGID_21_);} .st35{fill:url(#SVGID_22_);} .st36{fill:url(#SVGID_23_);} .st37{fill:url(#SVGID_24_);} .st38{fill:url(#SVGID_25_);} .st39{fill:url(#SVGID_26_);} .st40{fill:url(#SVGID_27_);} .st41{fill:url(#SVGID_28_);} .st42{fill:url(#SVGID_29_);} .st43{fill:url(#SVGID_30_);} .st44{fill:url(#SVGID_31_);} .st45{fill:url(#SVGID_32_);} .st46{fill:url(#SVGID_33_);} .st47{fill:url(#SVGID_34_);} .st48{fill:url(#SVGID_35_);} .st49{fill:url(#SVGID_36_);} .st50{fill:url(#SVGID_37_);} .st51{fill:url(#SVGID_38_);} .st52{fill:url(#SVGID_39_);} .st53{fill:url(#SVGID_40_);} .st54{fill:url(#SVGID_41_);} .st55{fill:url(#SVGID_42_);} .st56{fill:url(#SVGID_43_);} .st57{fill:url(#SVGID_44_);} .st58{fill:url(#SVGID_45_);} .st59{fill:#040404;} .st60{fill:url(#SVGID_46_);} .st61{fill:url(#SVGID_47_);} .st62{fill:url(#SVGID_48_);} .st63{fill:url(#SVGID_49_);} .st64{fill:url(#SVGID_50_);} .st65{fill:url(#SVGID_51_);} .st66{fill:url(#SVGID_52_);} .st67{fill:url(#SVGID_53_);} .st68{fill:url(#SVGID_54_);} .st69{fill:url(#SVGID_55_);} .st70{fill:url(#SVGID_56_);} .st71{fill:url(#SVGID_57_);} .st72{fill:url(#SVGID_58_);} .st73{fill:url(#SVGID_59_);} .st74{fill:url(#SVGID_60_);} .st75{fill:url(#SVGID_61_);} .st76{fill:url(#SVGID_62_);} .st77{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;} .st78{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;} .st79{fill:#4BC9FF;} .st80{fill:#5500DD;} .st81{fill:#FF3A00;} .st82{fill:#E6162D;} .st83{fill:#F1F1F1;} .st84{fill:#FF9933;} .st85{fill:#B92B27;} .st86{fill:#00ACED;} .st87{fill:#BD2125;} .st88{fill:#1877F2;} .st89{fill:#6665D2;} .st90{fill:#CE3056;} .st91{fill:#5BB381;} .st92{fill:#61C3EC;} .st93{fill:#E4B34B;} .st94{fill:#181EF2;} .st95{fill:#FF0000;} .st96{fill:#FE466C;} .st97{fill:#FA4778;} .st98{fill:#FF7700;} .st99{fill-rule:evenodd;clip-rule:evenodd;fill:#1F6BF6;} .st100{fill:#520094;} .st101{fill:#4477E8;} .st102{fill:#3D1D1C;} .st103{fill:#FFE812;} .st104{fill:#344356;} .st105{fill:#00CC76;} .st106{fill-rule:evenodd;clip-rule:evenodd;fill:#345E90;} .st107{fill:#1F65D8;} .st108{fill:#EB3587;} .st109{fill-rule:evenodd;clip-rule:evenodd;fill:#603A88;} .st110{fill:#E3CE99;} .st111{fill:#783AF9;} .st112{fill:#FF515E;} .st113{fill:#FF4906;} .st114{fill:#503227;} .st115{fill:#4C7BD9;} .st116{fill:#69C9D0;} .st117{fill:#1B92D1;} .st118{fill:#EB4F4A;} .st119{fill:#513728;} .st120{fill:#FF6600;} .st121{fill-rule:evenodd;clip-rule:evenodd;fill:#B61438;} .st122{fill:#FFFC00;} .st123{fill:#141414;} .st124{fill:#94D137;} .st125{fill-rule:evenodd;clip-rule:evenodd;fill:#F1F1F1;} .st126{fill-rule:evenodd;clip-rule:evenodd;fill:#66E066;} .st127{fill:#2D8CFF;} .st128{fill:#F1A300;} .st129{fill:#4BA2F2;} .st130{fill:#1A5099;} .st131{fill:#EE6060;} .st132{fill-rule:evenodd;clip-rule:evenodd;fill:#F48120;} .st133{fill:#222222;} .st134{fill:url(#SVGID_63_);} .st135{fill:#0077B5;} .st136{fill:#FFCC00;} .st137{fill:#EB3352;} .st138{fill:#F9D265;} .st139{fill:#F5B955;} .st140{fill:#DD2A7B;} .st141{fill:#66E066;} .st142{fill:#EB4E00;} .st143{fill:#FFC794;} .st144{fill:#B5332A;} .st145{fill:#4E85EB;} .st146{fill:#58A45C;} .st147{fill:#F2BC42;} .st148{fill:#D85040;} .st149{fill:#464EB8;} .st150{fill:#7B83EB;} </style> <g id="Layer_1"></g> <g id="Layer_2"> <g> <path class="st144" d="M95.861,24.752c0-7.801-8.824-12.254-15.003-7.579L75.014,21.6v0.013L50,40.548L24.986,21.6l-5.831-4.415 c-6.192-4.675-15.016-0.221-15.016,7.579v8.413v45.241c0,3.49,2.799,6.316,6.257,6.316h14.59V48.961L50,67.896l25.014-18.935 v-0.013l0.029-0.022l-0.029,0.035v35.773h14.59c3.457,0,6.257-2.826,6.257-6.316V33.178l-0.038,0.015l0.038-0.028V24.752z"></path> <path class="st145" d="M10.396,84.734h14.59V48.961L4.139,33.178v45.241C4.139,81.908,6.938,84.734,10.396,84.734z"></path> <path class="st146" d="M75.014,84.734h14.59c3.457,0,6.257-2.826,6.257-6.316V33.178L75.014,48.961V84.734z"></path> <path class="st147" d="M75.014,21.6v27.348l20.847-15.783v-8.413c0-7.801-8.824-12.254-15.003-7.579L75.014,21.6z"></path> <path class="st148" d="M24.986,48.961V21.6L50,40.548l25.014-18.935v27.348L50,67.896L24.986,48.961z"></path> <path class="st144" d="M4.139,24.765v8.413l20.847,15.783V21.6l-5.831-4.415C12.963,12.511,4.139,16.964,4.139,24.765z"></path> </g> </g> </g></svg></a>
+
+</div>
+<div class="king1">
+  <a href="https://github.com/"><svg class="k1" width="20%" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>team-collaboration/version-control/github</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="team-collaboration/version-control/github" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="container" transform="translate(2.000000, 2.000000)" fill-rule="nonzero"> <rect id="mask" stroke="#000000" stroke-width="2" fill="#000000" x="-1" y="-1" width="71" height="71" rx="14"> </rect> <path d="M58.3067362,21.4281798 C55.895743,17.2972267 52.6253846,14.0267453 48.4948004,11.615998 C44.3636013,9.20512774 39.8535636,8 34.9614901,8 C30.0700314,8 25.5585181,9.20549662 21.4281798,11.615998 C17.2972267,14.0266224 14.0269912,17.2972267 11.615998,21.4281798 C9.20537366,25.5590099 8,30.0699084 8,34.9607523 C8,40.8357654 9.71405782,46.1187277 13.1430342,50.8109917 C16.5716416,55.5036246 21.0008949,58.7507436 26.4304251,60.5527176 C27.0624378,60.6700211 27.5302994,60.5875152 27.8345016,60.3072901 C28.1388268,60.0266961 28.290805,59.6752774 28.290805,59.2545094 C28.290805,59.1842994 28.2847799,58.5526556 28.2730988,57.3588401 C28.2610487,56.1650247 28.2553926,55.1235563 28.2553926,54.2349267 L27.4479164,54.3746089 C26.9330843,54.468919 26.2836113,54.5088809 25.4994975,54.4975686 C24.7157525,54.4866252 23.9021284,54.4044881 23.0597317,54.2517722 C22.2169661,54.1004088 21.4330982,53.749359 20.7075131,53.1993604 C19.982297,52.6493618 19.4674649,51.9294329 19.1631397,51.0406804 L18.8120898,50.2328353 C18.5780976,49.6950097 18.2097104,49.0975487 17.7064365,48.4426655 C17.2031625,47.7871675 16.6942324,47.3427912 16.1794003,47.108799 L15.9336039,46.9328437 C15.7698216,46.815909 15.6178435,46.6748743 15.4773006,46.511215 C15.3368806,46.3475556 15.2317501,46.1837734 15.1615401,46.0197452 C15.0912072,45.855594 15.1494901,45.7209532 15.3370036,45.6153308 C15.5245171,45.5097084 15.8633939,45.4584343 16.3551097,45.4584343 L17.0569635,45.5633189 C17.5250709,45.6571371 18.104088,45.9373622 18.7947525,46.4057156 C19.4850481,46.8737001 20.052507,47.4821045 20.4972521,48.230683 C21.0358155,49.1905062 21.6846737,49.9218703 22.4456711,50.4251443 C23.2060537,50.9284182 23.9727072,51.1796248 24.744894,51.1796248 C25.5170807,51.1796248 26.1840139,51.121096 26.7459396,51.0046532 C27.3072505,50.8875956 27.8338868,50.7116403 28.3256025,50.477771 C28.5362325,48.9090515 29.1097164,47.7039238 30.0455624,46.8615271 C28.7116959,46.721353 27.5124702,46.5102313 26.4472706,46.2295144 C25.3826858,45.9484285 24.2825656,45.4922482 23.1476478,44.8597436 C22.0121153,44.2280998 21.0701212,43.44374 20.3214198,42.5080169 C19.5725954,41.571802 18.9580429,40.3426971 18.4786232,38.821809 C17.9989575,37.300306 17.7590632,35.5451796 17.7590632,33.5559381 C17.7590632,30.7235621 18.6837199,28.3133066 20.5326645,26.3238191 C19.6665366,24.1944035 19.7483048,21.8072644 20.778215,19.1626478 C21.4569523,18.951772 22.4635002,19.1100211 23.7973667,19.6364115 C25.1314792,20.1630477 26.1082708,20.6141868 26.7287253,20.9882301 C27.3491798,21.3621504 27.8463057,21.6790175 28.2208409,21.9360032 C30.3978419,21.3277217 32.644438,21.0235195 34.9612442,21.0235195 C37.2780503,21.0235195 39.5251383,21.3277217 41.7022622,21.9360032 L43.0362517,21.0938524 C43.9484895,20.5319267 45.0257392,20.0169716 46.2654186,19.5488642 C47.5058357,19.0810026 48.4543466,18.9521409 49.1099676,19.1630167 C50.1627483,21.8077563 50.2565666,24.1947724 49.3901927,26.324188 C51.2390143,28.3136755 52.1640399,30.7245457 52.1640399,33.556307 C52.1640399,35.5455485 51.9232849,37.3062081 51.444357,38.8393922 C50.9648143,40.3728223 50.3449746,41.6006975 49.5845919,42.5256002 C48.8233486,43.4503799 47.8753296,44.2285916 46.7404118,44.8601125 C45.6052481,45.4921252 44.504759,45.9483056 43.4401742,46.2293914 C42.3750975,46.5104772 41.1758719,46.7217219 39.8420054,46.8621419 C41.0585683,47.9149226 41.6669728,49.5767225 41.6669728,51.846804 L41.6669728,59.2535257 C41.6669728,59.6742937 41.8132948,60.0255895 42.1061847,60.3063064 C42.3987058,60.5865315 42.8606653,60.6690374 43.492678,60.5516109 C48.922946,58.7498829 53.3521992,55.5026409 56.7806837,50.810008 C60.2087994,46.117744 61.923472,40.8347817 61.923472,34.9597686 C61.9222424,30.0695396 60.7162539,25.5590099 58.3067362,21.4281798 Z" id="Shape" fill="#FFFFFF"> </path> </g> </g> </g></svg></a>
+</div>
+</div>
+
+</div>
+   
+  </body>
+</html>
